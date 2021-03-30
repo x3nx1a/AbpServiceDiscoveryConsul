@@ -1,0 +1,26 @@
+name: consul-example
+services:
+  - name: ApiGateway
+    project: api-gateway\ApiGateway.csproj
+    bindings:
+      - name: ApiGateway
+        port: 1000
+        protocol: https
+    tags:
+      - gateway
+  - name: ProductService
+    project: services/ProductService.Host\ProductService.Host.csproj
+    bindings:
+      - name: ProductService
+        port: 1001
+        protocol: https
+    tags:
+      - microservice
+  - name: OrderService
+    project: services/OrderService.Host\OrderService.Host.csproj
+    bindings:
+      - name: OrderService
+        port: 1002
+        protocol: https
+    tags:
+      - microservice

@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.Volo.Abp.ServiceDiscovery.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Users\Xia\Documents\GitHub\AbpServiceDiscoveryConsul\Volo.Abp.ServiceDiscovery\.idea\.idea.Volo.Abp.ServiceDiscovery\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
